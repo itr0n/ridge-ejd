@@ -1,0 +1,241 @@
+locations = [
+  {
+    name: "Total",
+    type: "csv",
+    url:
+      "https://raw.githubusercontent.com/itr0n/ridge-ejd/main/SA2_CapitalCities_GCCSA_Centroids_Melbourne.csv",
+    longitude: d => d["Long"],
+    latitude: d => d["Lat"],
+    value: d => (d.EJD_Total),
+    nbLine: 55,
+    width: 1500,
+    overlap: 20
+  },{
+   name: "AgriFor",
+    type: "csv",
+    url:
+      "https://raw.githubusercontent.com/itr0n/ridge-ejd/main/SA2_CapitalCities_GCCSA_Centroids_Melbourne.csv",
+    longitude: d => d["Long"],
+    latitude: d => d["Lat"],
+    value: d => d.EJD_AgriFor,
+    nbLine: 55,
+    width: 1500,
+    overlap: 10
+  },
+  {
+   name: "Mining",
+    type: "csv",
+    url:
+      "https://raw.githubusercontent.com/itr0n/ridge-ejd/main/SA2_CapitalCities_GCCSA_Centroids_Melbourne.csv",
+    longitude: d => d["Long"],
+    latitude: d => d["Lat"],
+    value: d => d.EJD_Mining,
+    nbLine: 55,
+    width: 1500,
+    overlap: 10
+  },
+  {
+   name: "Manufacturing",
+    type: "csv",
+    url:
+      "https://raw.githubusercontent.com/itr0n/ridge-ejd/main/SA2_CapitalCities_GCCSA_Centroids_Melbourne.csv",
+    longitude: d => d["Long"],
+    latitude: d => d["Lat"],
+    value: d => d.EJD_Manufacturing,
+    nbLine: 55,
+    width: 1500,
+    overlap: 10
+  },
+  {
+   name: "Util",
+    type: "csv",
+    url:
+      "https://raw.githubusercontent.com/itr0n/ridge-ejd/main/SA2_CapitalCities_GCCSA_Centroids_Melbourne.csv",
+    longitude: d => d["Long"],
+    latitude: d => d["Lat"],
+    value: d => d.EJD_Util,
+    nbLine: 55,
+    width: 1500,
+    overlap: 10
+  },
+  {
+   name: "Constr",
+    type: "csv",
+    url:
+      "https://raw.githubusercontent.com/itr0n/ridge-ejd/main/SA2_CapitalCities_GCCSA_Centroids_Melbourne.csv",
+    longitude: d => d["Long"],
+    latitude: d => d["Lat"],
+    value: d => d.EJD_Constr,
+    nbLine: 55,
+    width: 1500,
+    overlap: 10
+  },
+  {
+   name: "Wholesale",
+    type: "csv",
+    url:
+      "https://raw.githubusercontent.com/itr0n/ridge-ejd/main/SA2_CapitalCities_GCCSA_Centroids_Melbourne.csv",
+    longitude: d => d["Long"],
+    latitude: d => d["Lat"],
+    value: d => d.EJD_Wholesale,
+    nbLine: 55,
+    width: 1500,
+    overlap: 10
+  },
+  {
+   name: "Retail",
+    type: "csv",
+    url:
+      "https://raw.githubusercontent.com/itr0n/ridge-ejd/main/SA2_CapitalCities_GCCSA_Centroids_Melbourne.csv",
+    longitude: d => d["Long"],
+    latitude: d => d["Lat"],
+    value: d => d.EJD_Retail,
+    nbLine: 55,
+    width: 1500,
+    overlap: 10
+  },
+    {
+   name: "Accommodation and Food services",
+    type: "csv",
+    url:
+      "https://raw.githubusercontent.com/itr0n/ridge-ejd/main/SA2_CapitalCities_GCCSA_Centroids_Melbourne.csv",
+    longitude: d => d["Long"],
+    latitude: d => d["Lat"],
+    value: d => d.EJD_AccoFood,
+    nbLine: 55,
+    width: 1500,
+    overlap: 10
+  },
+  {
+   name: "Logistic",
+    type: "csv",
+    url:
+      "https://raw.githubusercontent.com/itr0n/ridge-ejd/main/SA2_CapitalCities_GCCSA_Centroids_Melbourne.csv",
+    longitude: d => d["Long"],
+    latitude: d => d["Lat"],
+    value: d => d.EJD_Logistic,
+    nbLine: 55,
+    width: 1500,
+    overlap: 10
+  },
+  {
+   name: "IT",
+    type: "csv",
+    url:
+      "https://raw.githubusercontent.com/itr0n/ridge-ejd/main/SA2_CapitalCities_GCCSA_Centroids_Melbourne.csv",
+    longitude: d => d["Long"],
+    latitude: d => d["Lat"],
+    value: d => d.EJD_IT,
+    nbLine: 55,
+    width: 1500,
+    overlap: 10
+  },
+      {
+   name: "Fin",
+    type: "csv",
+    url:
+      "https://raw.githubusercontent.com/itr0n/ridge-ejd/main/SA2_CapitalCities_GCCSA_Centroids_Melbourne.csv",
+    longitude: d => d["Long"],
+    latitude: d => d["Lat"],
+    value: d => d.EJD_Fin,
+    nbLine: 55,
+    width: 1500,
+    overlap: 10
+  },
+  {
+   name: "RealEst",
+    type: "csv",
+    url:
+      "https://raw.githubusercontent.com/itr0n/ridge-ejd/main/SA2_CapitalCities_GCCSA_Centroids_Melbourne.csv",
+    longitude: d => d["Long"],
+    latitude: d => d["Lat"],
+    value: d => d.EJD_RealEst,
+    nbLine: 55,
+    width: 1500,
+    overlap: 10
+  },
+  {
+   name: "ProfServ",
+    type: "csv",
+    url:
+      "https://raw.githubusercontent.com/itr0n/ridge-ejd/main/SA2_CapitalCities_GCCSA_Centroids_Melbourne.csv",
+    longitude: d => d["Long"],
+    latitude: d => d["Lat"],
+    value: d => d.EJD_ProfServ,
+    nbLine: 55,
+    width: 1500,
+    overlap: 10
+  },
+    {
+   name: "Admin",
+    type: "csv",
+    url:
+      "https://raw.githubusercontent.com/itr0n/ridge-ejd/main/SA2_CapitalCities_GCCSA_Centroids_Melbourne.csv",
+    longitude: d => d["Long"],
+    latitude: d => d["Lat"],
+    value: d => d.EJD_Admin,
+    nbLine: 55,
+    width: 1500,
+    overlap: 10
+  },
+    {
+   name: "GovDef",
+    type: "csv",
+    url:
+      "https://raw.githubusercontent.com/itr0n/ridge-ejd/main/SA2_CapitalCities_GCCSA_Centroids_Melbourne.csv",
+    longitude: d => d["Long"],
+    latitude: d => d["Lat"],
+    value: d => d.EJD_GovDef,
+    nbLine: 55,
+    width: 1500,
+    overlap: 10
+  },
+    {
+   name: "Edu",
+    type: "csv",
+    url:
+      "https://raw.githubusercontent.com/itr0n/ridge-ejd/main/SA2_CapitalCities_GCCSA_Centroids_Melbourne.csv",
+    longitude: d => d["Long"],
+    latitude: d => d["Lat"],
+    value: d => d.EJD_Edu,
+    nbLine: 55,
+    width: 1500,
+    overlap: 10
+  },
+    {
+   name: "Health",
+    type: "csv",
+    url:
+      "https://raw.githubusercontent.com/itr0n/ridge-ejd/main/SA2_CapitalCities_GCCSA_Centroids_Melbourne.csv",
+    longitude: d => d["Long"],
+    latitude: d => d["Lat"],
+    value: d => d.EJD_Health,
+    nbLine: 55,
+    width: 1500,
+    overlap: 10
+  },
+    {
+   name: "Arts",
+    type: "csv",
+    url:
+      "https://raw.githubusercontent.com/itr0n/ridge-ejd/main/SA2_CapitalCities_GCCSA_Centroids_Melbourne.csv",
+    longitude: d => d["Long"],
+    latitude: d => d["Lat"],
+    value: d => d.EJD_Arts,
+    nbLine: 55,
+    width: 1500,
+    overlap: 10
+  },
+    {
+   name: "Other",
+    type: "csv",
+    url:
+      "https://raw.githubusercontent.com/itr0n/ridge-ejd/main/SA2_CapitalCities_GCCSA_Centroids_Melbourne.csv",
+    longitude: d => d["Long"],
+    latitude: d => d["Lat"],
+    value: d => d.EJD_Other,
+    nbLine: 55,
+    width: 1500,
+    overlap: 10
+  }
+]
